@@ -1,0 +1,28 @@
+{
+  "name": "hapi-pouchdb",
+  "description": "Hapi plugin with a CouchDB style REST interface to PouchDB.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/svnlto/hapi-pouchdb",
+  "author": {
+    "name": "Sven Lito",
+    "email": "me@svenlito.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/svnlto/hapi-pouchdb.git"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "bluebird": "^2.3.0",
+    "extend": "^1.2.1",
+    "hapi": "^6.5.1",
+    "node-uuid": "1.4.1",
+    "pouchdb": "pouchdb/pouchdb",
+    "pouchdb-all-dbs": "^0.1.0",
+    "pouchdb-list": "^1.0.0",
+    "pouchdb-rewrite": "^1.0.0",
+    "pouchdb-show": "^1.0.0",
+    "pouchdb-update": "^1.0.0",
+    "pouchdb-validation": "^1.1.6"
+  }
+}
