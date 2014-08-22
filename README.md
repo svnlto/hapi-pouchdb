@@ -7,7 +7,7 @@
 
 ## Introduction
 
-The **hapi-pouchdb** plugin mimica most of the [CouchDB](http://couchdb.apache.org/) REST API, it's behavior is handled by 
+The **hapi-pouchdb** plugin mimics most of the [CouchDB](http://couchdb.apache.org/) REST API, it's behavior is handled by 
 [PouchDB](http://pouchdb.com/). The intention is for **hapi-pouchdb** to be mounted into other Hapi apps for extended usability. 
 
 <!--A simple example of this is [pouchdb-server](https://github.com/nick-thompson/pouchdb-server), 
@@ -18,6 +18,7 @@ which is primarily used as a quick-and-dirty drop-in replacement for CouchDB in 
 
 ```bash
 $ npm install hapi-pouchdb
+
 ```
 
 ## Example Usage
@@ -26,7 +27,7 @@ Here's a sample Hapi app, which we'll name `app.js`.
 
 ```javascript
 
-provide example
+   provide example
 
 ```
 

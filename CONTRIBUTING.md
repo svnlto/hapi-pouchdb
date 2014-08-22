@@ -1,7 +1,7 @@
 Want to help me make this thing awesome? Great! Here's how you should get started.
 
 1. Because PouchDB is still developing so rapidly, you'll want to clone `git@github.com:daleharvey/pouchdb.git`, and run `npm link` from the root folder of your clone.
-2. Fork **express-pouchdb**, and clone it to your local machine.
+2. Fork **hapi-pouchdb**, and clone it to your local machine.
 3. From the root folder of your clone run `npm link pouchdb` to install PouchDB from your local repository from Step 1.
 4. `npm install`
 
