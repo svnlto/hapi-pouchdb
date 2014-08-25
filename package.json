@@ -13,6 +13,7 @@
   },
   "main": "./index.js",
   "dependencies": {
+    "base64-js": "0.0.7",
     "bluebird": "^2.3.0",
     "extend": "^1.2.1",
     "hapi": "^6.5.1",
