@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git://github.com/svnlto/hapi-pouchdb.git"
   },
+  "scripts": {
+    "test": "node node_modules/couchdb-harness/bin/couchdb-harness -p 8080 copy_doc large_docs lots_of_docs multiple_rows utf8 view_conflicts"
+  },
   "main": "./index.js",
   "dependencies": {
     "base64-js": "0.0.7",
@@ -25,5 +28,8 @@
     "pouchdb-show": "^1.0.0",
     "pouchdb-update": "^1.0.0",
     "pouchdb-validation": "^1.1.6"
+  },
+  "devDependencies": {
+    "couchdb-harness": "git://github.com/svnlto/couchdb-harness.git#8807c70db6e1c6cc7a481a978ed6299284bd9d32"
   }
 }
